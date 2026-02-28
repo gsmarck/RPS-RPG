@@ -31,7 +31,7 @@ def game_start(oponent):
             continue
         rand = randint(0, len(pool)-1)
         enemysplay = pool[rand]
-        if playersplay == 'tesoura' and enemysplay == 'papel' or playersplay == 'pedra' and enemysplay == 'tesoura' or playersplay == 'papel' and enemysplay == 'pedra':
+        elif playersplay == 'tesoura' and enemysplay == 'papel' or playersplay == 'pedra' and enemysplay == 'tesoura' or playersplay == 'papel' and enemysplay == 'pedra':
             playerspoints += 1
             print('Você ganhou uma. O placar está: \nVocê: {}\nOponente: {}'.format(playerspoints, enemyspoints))
         elif playersplay == enemysplay:
