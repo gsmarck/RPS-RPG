@@ -24,6 +24,7 @@ def choose():
                                     if choice < len(oponents):
                                                 return int(choice)
                                     print("\nNúmero inválido, escolha dentre as opções apresentadas. \n\n")
+                                    continue
                         print("\nPor favor escreva somente o número do oponente que deseja enfrentar. \n\n")
 
 #Função do jogo em si (usa a resposta da seleção para determinar qual das listas usar)
