@@ -2,10 +2,10 @@
 from random import randint
 
 #Listas usadas por cada oponente para decidir a jogada
-oponents = [['pedra', 'papel', 'tesoura'], 
-            ['pedra', 'pedra', 'pedra', 'pedra', 'pedra', 'pedra', 'pedra', 'pedra', 'papel', 'tesoura'], 
-            ['tesoura', 'tesoura'], 
-            ['papel']]
+oponents = [['pedra', 'papel', 'tesoura'], #Aleatorionildo
+            ['pedra', 'pedra', 'pedra', 'pedra', 'pedra', 'pedra', 'pedra', 'pedra', 'papel', 'tesoura'], #Pedro Pedra
+            ['tesoura', 'tesoura'], #Edward
+            ['papel']] #Papeleiro Maluco
 
 valid_moves = ['pedra', 'papel', 'tesoura']
 
